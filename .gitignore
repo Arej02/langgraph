@@ -1,0 +1,26 @@
+# Secrets & Environment
+.env
+*.env
+.env.*
+
+# Virtual environments
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# Output/Cache (common in LangChain)
+output/
+outputs/
+.cache/
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/IDE junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
